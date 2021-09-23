@@ -1,12 +1,3 @@
-## Hi there 👋
+endpoint is the destination for people who are passionate about delivering the most innovative and high-quality IRT solutions for clinical trials. We find purpose through hard work and a commitment to excellence, resulting in a competitive advantage unparalleled in the industry.
 
-<!--
-
-**Here are some ideas to get you started:**
-
-🙋‍♀️ A short introduction - what is your organization all about?
-🌈 Contribution guidelines - how can the community get involved?
-👩‍💻 Useful resources - where can the community find your docs? Is there anything else the community should know?
-🍿 Fun facts - what does your team eat for breakfast?
-🧙 Remember, you can do mighty things with the power of [Markdown](https://guides.github.com/features/mastering-markdown/)
--->
+Through endpoint’s culture of accountability and execution, we ensure that our customers are able to focus on the science of developing lifesaving medications for patients.
