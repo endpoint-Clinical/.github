@@ -2,7 +2,7 @@
 
 Please include a summary of the changes and the related issue. Please also include relevant motivation and context. List any dependencies that are required for this change.
 
-Addresses # (issue)
+Fixes AB#<task-id> (sub-task of AB#<story-id>)
 
 ## Type of change
 
