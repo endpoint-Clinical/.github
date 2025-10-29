@@ -6,7 +6,7 @@ Addresses AB#{task-id} (sub-task of AB#{story-id})
 
 ## Type of change
 
-Please delete options that are not relevant.
+Please check at least one option:
 
 - [ ] Bug fix (non-breaking change which fixes an issue)
 - [ ] New feature (non-breaking change which adds functionality)
@@ -14,33 +14,23 @@ Please delete options that are not relevant.
 - [ ] Build related changes
 - [ ] Other (please describe):
 
-# How Has This Been Tested?
+# Risk & Impact
 
-Please ensure all automated unit tests have been written and passing.  This is required for a PR approval.
+Please describe what risks are involved with this change to existing code, infrastructure, process, or similiar.  Also, describe the impacted areas and/or functionality this change has an affect on.  Additionally, describe any backwards compatibility and/or feature flags considerations.
 
-Please describe the manual tests that you ran to verify your changes. Provide detailed instructions so the reviewer can reproduce and verify the changes. Please also list any relevant details for your test configuration(s).
 
-- Test A
-- Test B
+# Testing
 
-**Test Configuration**:
+- [ ] Unit tests have been added and pass locally with my changes
+- [ ] Integration tests have been added and pass locally with my changes
+
+Please describe the manual tests steps need to verify this change/implementation:
+
 
 # Checklist:
 
 🚨Please review the checklist in the [guidelines for review](https://dev.azure.com/endpointclinical/Engineering/_wiki/wikis/Docs/909/Code-Review?anchor=code-review-checklist).
 
-Put an x in the boxes that apply.  This is simply a reminder of what will be considered during the review before merging your code.
-
-- [ ] My code follows the style guidelines of this project
-- [ ] Lint and unit tests pass locally with my changes
-- [ ] I have performed a self-review of my code
-- [ ] I have commented my code, particularly in hard-to-understand areas
-- [ ] I have made corresponding changes to the documentation (if appropriate)
-- [ ] My changes generate no new warnings
-- [ ] I have added tests that prove my fix is effective or that my feature works
-- [ ] New and existing unit tests pass locally with my changes
-- [ ] Any dependent changes have been merged and published in downstream modules
-
-# Further Comments
-
-If this is a relatively large or complex change, kick off the discussion by explaining why you chose the solution you did and what alternatives you considered, etc...
+- [ ] Lint/typecheck pass
+- [ ] Security scan pass
+- [ ] Documentation updated (Code documentation/README/ADRs)
