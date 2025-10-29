@@ -1,36 +1,70 @@
-# Description
+## Summary
+**What:** Brief description of the change  
+**Why:** Business/technical justification  
+**Issue:** Addresses AB#{task-id} (sub-task of AB#{story-id})
 
-Please include a summary of the changes and the related issue. Please also include relevant motivation and context. List any dependencies that are required for this change.
+## Type of Change
+<!-- Select one primary type -->
+- [ ] 🐛 Bug fix (non-breaking)
+- [ ] ✨ New feature (non-breaking)
+- [ ] 💥 Breaking change (fix or feature that would cause existing functionality to not work as expected)
+- [ ] 🔧 Maintenance (refactor, deps, build, etc.)
+- [ ] 📚 Documentation update
 
-Addresses AB#{task-id} (sub-task of AB#{story-id})
+## Breaking Changes & Migration
+<!-- Required if breaking change selected above -->
+- [ ] N/A - No breaking changes
+- [ ] Backwards compatible with feature flag
+- [ ] Migration guide provided
+- [ ] Breaking changes documented
 
-## Type of change
+**Migration notes:** (if applicable)
 
-Please check at least one option:
+## Testing
+<!-- All applicable items must be checked -->
+**Automated Tests:**
+- [ ] Unit tests added/updated and passing
+- [ ] Integration tests added/updated and passing
+- [ ] No tests needed (justify below)
 
-- [ ] Bug fix (non-breaking change which fixes an issue)
-- [ ] New feature (non-breaking change which adds functionality)
-- [ ] This change requires a documentation update
-- [ ] Build related changes
-- [ ] Other (please describe):
+**Manual Testing:**
+- [ ] Tested locally with expected scenarios
+- [ ] Edge cases verified
+- [ ] No manual testing needed (justify below)
 
-# Risk & Impact
+**Test scenarios:** (describe key test cases)
 
-Please describe what risks are involved with this change to existing code, infrastructure, process, or similiar.  Also, describe the impacted areas and/or functionality this change has an affect on.  Additionally, describe any backwards compatibility and/or feature flags considerations.
+## Risk Assessment
+**Risk Level:** <!-- Select one -->
+- [ ] 🟢 Low (minor changes, well-tested)
+- [ ] 🟡 Medium (moderate changes, some risk)
+- [ ] 🔴 High (significant changes, needs careful review)
 
+**Impact Areas:** (check all that apply)
+- [ ] User-facing functionality
+- [ ] API/External interfaces  
+- [ ] Database/Data integrity
+- [ ] Performance/Scalability
+- [ ] Security/Authentication
+- [ ] Infrastructure/Deployment
 
-# Testing
+## Quality Checklist
+🚨 **Review the [code review guidelines](https://dev.azure.com/endpointclinical/Engineering/_wiki/wikis/Docs/909/Code-Review?anchor=code-review-checklist) before submitting**
 
-- [ ] Unit tests have been added and pass locally with my changes
-- [ ] Integration tests have been added and pass locally with my changes
+**Code Quality:**
+- [ ] Code follows project standards and conventions
+- [ ] Lint/typecheck passes locally
+- [ ] No commented-out code or debug statements
 
-Please describe the manual tests steps need to verify this change/implementation:
+**Security & Performance:**
+- [ ] Security scan passes
+- [ ] No sensitive data exposed
+- [ ] Performance impact considered
+- [ ] Dependencies reviewed for vulnerabilities
 
-
-# Checklist:
-
-🚨Please review the checklist in the [guidelines for review](https://dev.azure.com/endpointclinical/Engineering/_wiki/wikis/Docs/909/Code-Review?anchor=code-review-checklist).
-
-- [ ] Lint/typecheck pass
-- [ ] Security scan pass
-- [ ] Documentation updated (Code documentation/README/ADRs)
+**Documentation:**
+- [ ] Code comments added for complex logic
+- [ ] XML documentation added/updated (.NET methods/classes)
+- [ ] README/documentation updated (if needed)
+- [ ] ADRs updated (if needed)
+- [ ] No documentation changes required
