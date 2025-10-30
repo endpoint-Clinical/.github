@@ -10,6 +10,7 @@
 - [ ] 💥 Breaking change (fix or feature that would cause existing functionality to not work as expected)
 - [ ] 🔧 Maintenance (refactor, deps, build, etc.)
 - [ ] 📚 Documentation update
+- [ ] 📅 Daily branch merge
 
 ## Breaking Changes & Migration
 <!-- Required if breaking change selected above -->
